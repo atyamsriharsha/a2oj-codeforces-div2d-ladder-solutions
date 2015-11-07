@@ -35,9 +35,9 @@ int main()
     long long int ans = 0;
     for(long long int i=0;i<n;i++)
     {
-        for(long long int i=0;i<n;i++)
+        for(long long int j=0;j<n;j++)
         {
-            d[i] = 0;
+            d[j] = 0;
         }
         dfs(i,0);
         for(long long int j=0;j<n;j++)
