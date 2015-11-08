@@ -21,6 +21,8 @@ void prec()
 
 int main() 
 {    
+	string s = "atyam" ;
+	cout << s.length() ;
     prec() ;
     cin >> n ;
     long long int a,tmp;
