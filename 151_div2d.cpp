@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std ;
 std::vector<long long int> colours;
-std::set<long long int>  ans[100001] ;
+std::set<long long int> ans[100001] ;
 int main()
 {
 	long long int n,m,temp,temp1,temp2 ;
